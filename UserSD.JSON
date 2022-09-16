@@ -1,0 +1,87 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$id": "https://example.com/employee.schema.json",
+    "title": "UserICE",
+    "description": "This document records the details of the Incase of Emergency contact for the respective userID",
+    "type": "object",
+    "properties": {
+        "id": {
+            "description": "A unique identifier for a user in the database",
+            "type": "number"
+        },
+        "SDFlex1": {
+            "description": "Flex sensor data to measure impact dent",
+            "type": "number"
+        },
+        "SDFlex2": {
+            "description": "Flex sensor data to measure impact dent",
+            "type": "number"
+        },
+        "SDFlex3": {
+            "description": "Flex sensor data to measure impact dent",
+            "type": "number"
+        },
+        "SDFlex4": {
+            "description": "Flex sensor data to measure impact dent",
+            "type": "number"
+        },
+        "SDFlex5": {
+            "description": "Flex sensor data to measure impact dent",
+            "type": "number"
+        },
+        "SDFlex6": {
+            "description": "Flex sensor data to measure impact dent",
+            "type": "number"
+        },
+        "SDFlex7": {
+            "description": "Flex sensor data to measure impact dent",
+            "type": "number"
+        },
+        "SDFlex8": {
+            "description": "Flex sensor data to measure impact dent",
+            "type": "number"
+        },
+        "SDFlex9": {
+            "description": "Flex sensor data to measure impact dent",
+            "type": "number"
+        },
+        "SDFlex10": {
+            "description": "Flex sensor data to measure impact dent",
+            "type": "number"
+        },
+        "SDFlex11": {
+            "description": "Flex sensor data to measure impact dent",
+            "type": "number"
+        },
+        "SDFlex12": {
+            "description": "Flex sensor data to measure impact dent",
+            "type": "number"
+        },
+        "SDAccelerometer": {
+            "description": "Accelerometer sensor data to measure g-force of a impact",
+            "type": "number"
+        },
+        "SDGSM": {
+            "description": "GSM module preloaded with data and airtime to dend Sensor Data and contact emergency services",
+            "type": "string"
+        },
+        "SDChildSeat": {
+            "description": "Weight sensor momentary switch in belt-buckle. if weight detected and belt buckled then true, If no child detected then N/A or True, If weight detected and belt not buckled then false ",
+            "type": "boolean"
+        },
+        "Huskylens1": {
+            "description": "Sends image / video data if fatigue is detected",
+            "img": {
+                "data": "Buffer",
+                "contentType": "String"
+            }
+        },
+        "Huskylens2": {
+            "description": "Sends image / video data if wreckless driving is detected",
+            "img": {
+                "data": "Buffer",
+                "contentType": "String"
+            }
+        }
+    }
+}

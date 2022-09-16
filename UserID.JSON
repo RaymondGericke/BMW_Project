@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$id": "https://example.com/employee.schema.json",
+    "title": "UserICE",
+    "description": "This document records the details of the Incase of Emergency contact for the respective userID",
+    "type": "object",
+    "properties": {
+        "id": {
+            "description": "A unique identifier for a user in the database",
+            "type": "number"
+        },
+        "UserID": {
+            "description": "A unique identifier for a user in the database according to company needs",
+            "type": "number"
+        },
+        "UserName": {
+            "description": "Name of the main member",
+            "type": "string"
+        },
+        "UserSurname": {
+            "description": "Surname of the main member",
+            "type": "string"
+        },
+        "UserContactNr": {
+            "description": "Contact information of the main member",
+            "type": "string"
+        },
+        "UserICE": {
+            "description": "The ICE contact number of the personnel that matches the UserID",
+            "type": "number"
+        },
+        "UserSD": {
+            "description": "The updated information of the sensor data",
+            "type": "string"
+        },
+        "UserIncidents": {
+            "description": "the dates and reports of the most recent User Incidents",
+            "type": "string"
+        }
+    }
+}

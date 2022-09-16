@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$id": "https://example.com/employee.schema.json",
+    "title": "UserICE",
+    "description": "This document records the details of the Incase of Emergency contact for the respective userID",
+    "type": "object",
+    "properties": {
+        "id": {
+            "description": "A unique identifier for a user in the database",
+            "type": "number"
+        },
+        "UserIncidentDate": {
+            "description": "The date and update of the most recent user accedents or incidents",
+            "type": "string"
+        },
+        "UserSDReportID": {
+            "description": "A generated ID that is linked to a record that is held by the company",
+            "type": "string"
+        },
+        "UserIncidentICE": {
+            "description": "if the ICE was contacted or not",
+            "type": "boolean"
+        }
+    }
+}
