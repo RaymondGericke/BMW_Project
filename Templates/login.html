@@ -1,7 +1,60 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
 
-{% block content %}
-    <h1>
-        Login
-    </h1>
-{% endblock %}
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    
+</head>
+<body>
+    <div class="card-wrapper">
+
+        <div class="card">
+
+            <h1 class="center">Create An Account</h1>
+
+            <form action="signup_form">
+
+                <label for="name">Name</label>
+                <input type="text" name="name" class="field" required>
+
+                <label for="email">Email</label>
+                <input type="text" name="email" class="field" required>
+
+                <label for="password">Password</label>
+                <input type="text" name="password" class="field" required>
+
+                <input type="submit" value="Sign Up" class="btn">
+
+                <p class="error error--hidden"></p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="/static/js/jquery.js"></script>
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
